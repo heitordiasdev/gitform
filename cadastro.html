@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JHM Games</title>
+	<link rel="stylesheet" type="text/css" href="atividade.css">
+</head>
+<body class="cadastro">
+	<header>
+		<div class="menu">
+			<h1><img src="logo3.jpg" alt="Logo da JHM Games"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="atividade.html">Menu</a></li>
+					<li><a href="https://store.steampowered.com/">Serviços</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<form>
+			<h2>Cadastro</h2>
+			<label for="Nome">Nome completo:</label>
+			<input type="text" name="Nome" id="Nome" class="input-padrao" required>
+
+			<label for="email">E-mail:</label>
+			<input type="email" name="email" id="email" class="input-padrao" required placeholder="informações@dominio.com">
+
+			<label for="senha">Senha:</label>
+			<input type="password" name="password" id="password" class="input-padrao" required>
+
+			<label for="telefone">Telefone:</label>
+			<input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+			<label for="informaçoes">Informações adicionais:</label>
+			<textarea cols="40" rows="10" id="informaçoes" class="input-padrao"></textarea>
+
+			<fieldset>
+				<legend>Sexo:</legend>
+				<label for="radio-masculino" class="padrao1">
+					<input type="radio" name="sexo" id="radio-masculino" value="Masculino">
+					Masculino
+				</label>
+				<label for="radio-feminino"  class="padrao1">
+					<input type="radio" name="sexo" id="radio-feminino" value="Masculino" >
+					Feminino
+				</label>
+				
+			</fieldset>
+
+
+			<label for="cor">Qual sua cor favorita?</label>
+			<input type="color" name="cor" id="cor" class="padrao1" required>
+
+			<label for="data">Informe uma data especial:</label>
+			<input type="date" name="data" id="data" class="padrao3" required>
+
+			<label for="data">Data/hora de nascimento:</label>
+			<input type="datetime-local" name="data" id="data" class="padrao3" required>
+
+			<label for="data">Qual seu horário de acordar:</label>
+			<input type="time" name="data" id="data" class="padrao3">
+
+			<label for="numero">Quantas pessoas têm na sua familia:</label>
+			<input type="number" name="num" id="numero" min="1" class="padrao2" required>
+
+			<label for="url">Informe a URL de uma de suas redes sociais:</label>
+			<input type="url" name="url" id="url" class="input-padrao"  required>
+
+
+			<label>
+				<legend>Quais tipos de música você gosta:</legend>
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Rock
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Pop
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Sertanejo
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Forro
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Pagode
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Indie
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Samba
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Gospel
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Funk
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				MPB
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Reggae
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Jazz
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				Kpop
+				<input type="checkbox" name="checkbox" id="checkbox" class="padrao1">
+				outro
+
+
+			<label for="imagem">Envie uma foto de reconhecimento:</label>
+			<input type="file" name="imagem" id="imagem" class="padrao3" required>
+
+			</label>
+
+			<label for="horario">UF de nascimento</label>
+			<select name="horario" id="horario" class="input-padrao">
+				<option value="manhã">PB</option>
+				<option value="tarde">CE</option>
+				<option value="noite">Outro</option>
+			</select>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Cores</th>
+						<th>Comida</th>
+						<th>Hobbies</th>
+						<th>Espostes</th>
+						<th>Géneros de filmes</th>
+						<th>Estilos musicais</th>
+						<th>Disciplinas favoritas</th>
+					</tr>
+				</thead>
+
+				<tr>
+					<td>Vermelho</td>
+					<td>Pizza</td>
+					<td>Estudar ADS</td>
+					<td>Ficar sentado</td>
+					<td>Terror</td>
+					<td>Setanejo</td>
+					<td>Inglês</td>
+
+				</tr>
+
+				<tr>
+					<td>Azul</td>
+					<td>Frango</td>
+					<td>Estudar muito novos códigos e comandos</td>
+					<td>Ficar deitado</td>
+					<td>Comédia</td>
+					<td>Rock</td>
+					<td>P.O.O</td>
+
+				</tr>
+
+				<tr>
+					<td>Verde</td>
+					<td>Strogonoff</td>
+					<td>Estudar bastante python</td>
+					<td>Dormir</td>
+					<td>Ação</td>
+					<td>Trap</td>
+					<td>Estrutura de Dados</td>
+
+				</tr>
+				
+			</table>
+			
+			
+			<input type="submit" name="enviar" value="Cadastrar" class="input-padrao botao">
+			<input type="reset" name="resetar" value="Reiciniciar cadastro" class="input-padrao botao">
+
+		</form>
+	</main>
+	<footer>
+		<h3><font face="Arial"> Patriocinadoras </font></h3>
+		<img src="final.jpeg">
+		
+	</footer>
+</body>
+</html>

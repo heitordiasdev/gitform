@@ -18,18 +18,23 @@ header img{
 	padding-top: 20px;
 	height: 400px;
 
+
 }
 
 body{
 	background-image: url(fundoc.jpg);
 }
+
+
 .menu{
 	background-image: url(fundoc.jpg);
-	width: 940px;
+	width: 100%;
+	
+
 }
 .menu{
-	position: relative;
-	width: 940px;
+		
+	width: 100%;
 	border: 0 None;
 	padding-bottom: 20px;
 	margin: 0 auto;
@@ -69,7 +74,7 @@ nav a:hover {
 
 
 .categorias li {
-	color: #34a9ed;
+	color: white;
 	vertical-align: top bottom;
 	padding: 2em;
 	text-align: center;
@@ -82,11 +87,12 @@ nav a:hover {
 	border-radius: 10px;
 }
 .categorias li:hover {
+	color: #bd0203;
 	border-color: white;
-	text-shadow: white 0.1em 0.1em 0.2em;
+	text-shadow: #bd0203 0.1em 0.1em 0.2em;
 }
 .categorias li:active {
-	border-color: #bd1919;
+	border-color: #bd0203;
 
 }
 .categorias li:hover h2{
@@ -166,13 +172,14 @@ fieldset{
 	margin: 0 0 10px 10px;
 	border-color: red
 }
-.input-padrao{
+.input-padrao, .padrao3, .padrao, .padrao2{
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
-	width: 100%;
-	border-color: red;
-	box-sizing: b;
+	width: 100%;   
+	border: 3px solid red;
+	border-radius: 40px;
+	
 }
 
 .botao{
@@ -221,3 +228,7 @@ td, th{
 	text-align: center;
 	padding: 8px ;
 }
+
+
+
+
